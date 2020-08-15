@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    height: 550px;
+    padding: 100px 100px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 600px;
+}
+
+.info #quotes{
+    width: 120px;
+    height: auto;
+    margin-top: 120px;
+    margin-left: 100px;
+}
+
+#phrase{
+    font-size: 32px;
+    position: absolute;
+    z-index: 1;
+    height: 600px;
+    width: 650px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #141529;
+    font-weight: 300;
+}
+
+#name{
+   font-size: 20px;
+   font-weight: 600;
+   margin-top: 200px;
+   color:  #141529;
+}
+
+#function{
+    margin-top: 200px;
+    margin-left: 10px;  
+    color: #F4F5F6;   
+    font-weight: 500;
+}
+
+#curve{
+    max-width: 600px;
+    width: 600px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 80px;
+    margin-left: 160px;
+    left: 0;  
+}
+
+.info #function{
+    font-size: 20px;
+    color: grey;
+}
+
+.person-img{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    background: url('/images/pattern-bg.svg') no-repeat right;
+    background-size: 700px;
+}
+
+.person-img .person{
+    width: 540px;
+    height: 540px;
+    margin-left: 80px;
+    margin-top: 30px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.slider{
+    width: 50px;
+    background: #fffffd;
+    border-radius: 20px;
+    padding: 15px 20px;
+    position: absolute;
+    z-index: 1;
+    bottom: 136px;
+    margin-right: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+#john{
+    display: none;
+}
+
+.attribution{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.challage{
+    color: rebeccapurple;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.me{
+    color: purple;
+    font-size: 14px;
+    text-decoration: none;
+}
+
